@@ -9,7 +9,7 @@ rescue LoadError
 end
 
 # 使い方
-# ruby wisp.rb '#devouringstrossus/$takano_gumi;1caec29b9c17e6d2' 'testあ'
+# ruby wisp.rb '#hoge' 'testあ'
 # シングルコーテーションでなければ、$をエスケープしないのでエラーになる。
 
 # インストール
@@ -20,7 +20,7 @@ end
 
 chat_id = ARGV[0]
 message = ARGV[1]
-# chat_id = '#devouringstrossus/$takano_gumi;1caec29b9c17e6d2'
+# chat_id = '#hoge'
 # message="test"
 # puts chat_id
 # puts message
